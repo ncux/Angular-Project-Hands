@@ -1,1 +1,20 @@
-/* You can add global styles to this file, and also import other style files */
+.responsive {
+  max-width: 100%;
+}
+
+.active-link {
+  color: white;
+}
+
+.events-table-workshop {
+  background-color: blue;
+}
+
+.events-table-entertainment {
+  background-color: green;
+}
+
+.events-table {
+  color: black;
+}
+

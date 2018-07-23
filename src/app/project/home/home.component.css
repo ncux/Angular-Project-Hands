@@ -1,0 +1,54 @@
+
+.icon {
+  max-width: 80%;
+  height: auto;
+
+}
+
+/*.wrapper {*/
+  /*height: 100%;*/
+  /*display: grid;*/
+  /*grid-gap: 3rem;*/
+  /*grid-template-columns: repeat(3, 1fr);*/
+  /*grid-template-rows: auto auto auto;*/
+  /*grid-template-areas: "area1 area2 area3"*/
+                       /*"area4 area5 area6"*/
+                       /*"area7 area8 area9";*/
+
+/*}*/
+
+/*.area1 {*/
+  /*grid-area: area1;*/
+/*}*/
+
+/*.area2 {*/
+  /*grid-area: area2;*/
+/*}*/
+
+/*.area3 {*/
+  /*grid-area: area3;*/
+/*}*/
+
+/*.area4 {*/
+  /*grid-area: area4;*/
+/*}*/
+
+/*.area5 {*/
+  /*grid-area: area5;*/
+/*}*/
+
+/*.area6 {*/
+  /*grid-area: area6;*/
+/*}*/
+
+/*.area7 {*/
+  /*grid-area: area7;*/
+/*}*/
+
+/*.area8 {*/
+  /*grid-area: area8;*/
+/*}*/
+
+/*.area9 {*/
+  /*grid-area: area9;*/
+/*}*/

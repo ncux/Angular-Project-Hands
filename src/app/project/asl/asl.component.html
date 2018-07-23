@@ -1,0 +1,48 @@
+
+<button class="" (click)="back()">
+ back
+</button>
+
+<img class="responsive" src="../assets/imgs/top_bg.png" />
+
+<div class="">
+  <p>ASL Centers</p>
+  <img class="responsive" src="../assets/imgs/school.png" />
+</div>
+
+  <ul class="list-group">
+
+    <li class="list-group-item">
+      <h2>Al Dafrah ASL</h2>
+      <p>Al Dafrah School presents ASL Club where you can join after school sessions to learn ASL.</p>
+    </li>
+
+   <li class="list-group-item">
+      <h2>UAE</h2>
+      <select (change)="goToEmirateOrCountry($event)">
+        <option>Select</option>
+        <option value="Dubai"> 	Dubai</option>
+        <option value="Sharjah">Sharjah</option>
+        <option value="Abu Dhabi"> Abu Dhabi</option>
+        <option value="Ajman">Ajman</option>
+        <option value="Ras al Khaimah">Ras al Khaimah</option>
+        <option value="Fujairah">Fujairah</option>
+        <option value="Um Al Quwain">Um Al Quwain</option>
+      </select>
+    </li>
+
+    <li class="list-group-item">
+      <h2>GCC</h2>
+      <select (change)="goToEmirateOrCountry($event)">
+        <option>Select</option>
+        <option value="Bahrain"> Bahrain</option>
+        <option value="Kuwait">Kuwait</option>
+        <option value="Oman">Oman</option>
+        <option value="Qatar">Qatar</option>
+        <option value="Saudi Arabia">Saudi Arabia</option>
+      </select>
+    </li>
+
+  </ul>
+
+
